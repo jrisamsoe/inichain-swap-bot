@@ -148,7 +148,7 @@ cfonts.say('UNIV PEMULUNG KRIPTO', {
     align: 'center',
     colors: ['cyan', 'magenta'],
     background: 'black',
-    letterSpacing: 1,
+    letterSpacing: 0,
     lineHeight: 1,
     space: true,
     maxLength: '30',
