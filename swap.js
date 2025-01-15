@@ -143,7 +143,7 @@ async function startSwapOnce() {
 }
   
 // Loop the swap every 10 minutes (600000 milliseconds)
-cfonts.say('NT Exhaust', {
+cfonts.say('UNIVERSITAS PEMULUNG KRIPTO', {
     font: 'block',        // Options: 'block', 'simple', '3d', etc.
     align: 'center',
     colors: ['cyan', 'magenta'],
@@ -154,7 +154,10 @@ cfonts.say('NT Exhaust', {
     maxLength: '0',
   });
 console.log("=== UNIVERSITAS PEMULUNG KRIPTo by Admin Niera ===")
-await startSwapOnce();
+(async () => {
+  await startSwapOnce();
+})();
+
 
 setInterval(async () => {
   await startSwapOnce();
