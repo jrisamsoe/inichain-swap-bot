@@ -144,14 +144,14 @@ async function startSwapOnce() {
   
 // Loop the swap every 10 minutes (600000 milliseconds)
 cfonts.say('UNIV PEMULUNG KRIPTO', {
-    font: 'block',        // Options: 'block', 'simple', '3d', etc.
+    font: '3d',        // Options: 'block', 'simple', '3d', etc.
     align: 'center',
     colors: ['cyan', 'magenta'],
     background: 'black',
-    letterSpacing: 0,
+    letterSpacing: 1,
     lineHeight: 1,
     space: true,
-    maxLength: '30',
+    maxLength: '0',
   });
 console.log("=== TWITTER : NIERA ( @nierast ) ===")
 await startSwapOnce();
