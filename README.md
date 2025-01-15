@@ -22,6 +22,8 @@ git clone https://github.com/jrisamsoe/inichain-swap-bot.git
 ```
 cd inichain-swap-bot
 ```
+nano .env
+```
 <br>
 
 2️⃣ Create a .env File<br>
