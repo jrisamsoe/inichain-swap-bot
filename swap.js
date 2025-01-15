@@ -151,7 +151,7 @@ cfonts.say('UNIV PEMULUNG KRIPTO', {
     letterSpacing: 1,
     lineHeight: 1,
     space: true,
-    maxLength: '50',
+    maxLength: '30',
   });
 console.log("=== TWITTER : NIERA ( @nierast ) ===")
 await startSwapOnce();
