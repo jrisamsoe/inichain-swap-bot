@@ -22,13 +22,13 @@ git clone https://github.com/jrisamsoe/inichain-swap-bot.git
 ```
 cd inichain-swap-bot
 ```
+
+
+1️⃣ Clone the Repository<br>
 ```
 nano .env
 ```
 ```
-<br>
-
-2️⃣ Create a .env File<br>
 
 ```
 PRIVATE_KEY=YOURPRIVATEKEY
