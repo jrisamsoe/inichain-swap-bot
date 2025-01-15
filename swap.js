@@ -153,7 +153,7 @@ cfonts.say('NT Exhaust', {
     space: true,
     maxLength: '0',
   });
-console.log("=== Telegram Channel : NT Exhaust ( @NTExhaust ) ===")
+console.log("=== UNIVERSITAS PEMULUNG KRIPTo by Admin Niera ===")
 await startSwapOnce();
 
 setInterval(async () => {
