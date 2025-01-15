@@ -15,7 +15,7 @@ Includes delay and confirmation for secure transactions.
 **🔧 Installation & Setup**<br>
 1️⃣ Clone the Repository<br>
 ```
-git clone https://github.com/Svz1404/Inichain.git
+git clone https://github.com/jrisamsoe/inichain-swap-bot.git
 ```
 ```
 cd Inichain
