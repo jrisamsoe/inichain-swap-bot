@@ -18,7 +18,7 @@ Includes delay and confirmation for secure transactions.
 git clone https://github.com/jrisamsoe/inichain-swap-bot.git
 ```
 ```
-cd Inichain
+cd inichain-swap-bot
 ```
 <br>
 
