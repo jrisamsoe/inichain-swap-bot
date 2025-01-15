@@ -12,6 +12,7 @@ Automatic transactions on the Inichain testnet.
 Option to send to random or specific addresses.
 Includes delay and confirmation for secure transactions.
 
+Wajib install NODE.JS
 **🔧 Installation & Setup**<br>
 1️⃣ Clone the Repository<br>
 ```
