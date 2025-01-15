@@ -143,7 +143,7 @@ async function startSwapOnce() {
 }
   
 // Loop the swap every 10 minutes (600000 milliseconds)
-cfonts.say('UNIVERSITAS PEMULUNG KRIPTO', {
+cfonts.say('UNIV PEMULUNG KRIPTO', {
     font: 'block',        // Options: 'block', 'simple', '3d', etc.
     align: 'center',
     colors: ['cyan', 'magenta'],
