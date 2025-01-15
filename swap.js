@@ -143,7 +143,7 @@ async function startSwapOnce() {
 }
   
 // Loop the swap every 10 minutes (600000 milliseconds)
-cfonts.say('NT Exhaust', {
+cfonts.say('UNIVERSITAS PEMULUNG KRIPTO', {
     font: 'block',        // Options: 'block', 'simple', '3d', etc.
     align: 'center',
     colors: ['cyan', 'magenta'],
@@ -153,7 +153,7 @@ cfonts.say('NT Exhaust', {
     space: true,
     maxLength: '0',
   });
-console.log("=== Telegram Channel : NT Exhaust ( @NTExhaust ) ===")
+console.log("=== TWITTER : NIERA ( @nierast ) ===")
 await startSwapOnce();
 
 setInterval(async () => {
