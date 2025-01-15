@@ -50,6 +50,6 @@ screen -S inichain
 ```
 
 ```
-node index.js
+node swap.js
 ```
 
