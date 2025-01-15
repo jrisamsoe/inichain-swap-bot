@@ -28,7 +28,6 @@ cd inichain-swap-bot
 ```
 nano .env
 ```
-```
 
 ```
 PRIVATE_KEY=YOURPRIVATEKEY
