@@ -22,7 +22,9 @@ git clone https://github.com/jrisamsoe/inichain-swap-bot.git
 ```
 cd inichain-swap-bot
 ```
+```
 nano .env
+```
 ```
 <br>
 
