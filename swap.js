@@ -8,7 +8,7 @@ const {
   PRIVATE_KEY,       // Wallet private key
   RPC_URL,           // RPC endpoint of the blockchain
   ROUTER_ADDRESS,    // Address of the DEX router contract
-  TOKEN_A_ADDRESS,   // INI token address
+  TOKEN_A_ADDRESS,   // WINI token address
   TOKEN_B_ADDRESS,   // USDT token address
 } = process.env;
 
