@@ -8,7 +8,7 @@ const {
   PRIVATE_KEY,       // Wallet private key
   RPC_URL,           // RPC endpoint of the blockchain
   ROUTER_ADDRESS,    // Address of the DEX router contract
-  TOKEN_A_ADDRESS,   // WINI token address
+  TOKEN_A_ADDRESS,   // INI token address
   TOKEN_B_ADDRESS,   // USDT token address
 } = process.env;
 
@@ -104,7 +104,7 @@ async function performSwap(fromToken, toToken, amountIn) {
         deadline, 
         {
           gasLimit: 136195, // Adjust the gas limit
-          gasPrice: ethers.parseUnits("10", "gwei") // Adjust the gas price
+          gasPrice: ethers.parseUnits("15", "gwei") // Adjust the gas price
         }
       );
       console.log(`\n🔄 Swap transaction hash: ${swapTx.hash}`);
