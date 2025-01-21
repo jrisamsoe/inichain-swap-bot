@@ -104,7 +104,7 @@ async function performSwap(fromToken, toToken, amountIn) {
         deadline, 
         {
           gasLimit: 136195, // Adjust the gas limit
-          gasPrice: ethers.parseUnits("15", "gwei") // Adjust the gas price
+          gasPrice: ethers.parseUnits("10", "gwei") // Adjust the gas price
         }
       );
       console.log(`\n🔄 Swap transaction hash: ${swapTx.hash}`);
