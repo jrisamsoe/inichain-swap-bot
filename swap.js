@@ -103,7 +103,7 @@ async function performSwap(fromToken, toToken, amountIn) {
         to,
         deadline, 
         {
-          gasLimit: 106970, // Adjust the gas limit
+          gasLimit: 136195, // Adjust the gas limit
           gasPrice: ethers.parseUnits("10", "gwei") // Adjust the gas price
         }
       );
@@ -143,17 +143,17 @@ async function startSwapOnce() {
 }
   
 // Loop the swap every 10 minutes (600000 milliseconds)
-cfonts.say('UNIV.PEMULUNG.KRIPTO', {
+cfonts.say('NT Exhaust', {
     font: 'block',        // Options: 'block', 'simple', '3d', etc.
     align: 'center',
     colors: ['cyan', 'magenta'],
     background: 'black',
-    letterSpacing: 0,
-    lineHeight: 0,
+    letterSpacing: 1,
+    lineHeight: 1,
     space: true,
     maxLength: '0',
   });
-console.log("=== TWITTER : NIERA ( @nierast ) ===")
+console.log("=== Telegram Channel : NT Exhaust ( @NTExhaust ) ===")
 await startSwapOnce();
 
 setInterval(async () => {
