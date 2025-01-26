@@ -32,8 +32,8 @@ nano .env
 ```
 PRIVATE_KEY=YOURPRIVATEKEY
 RPC_URL=https://rpc-testnet.inichain.com
-ROUTER_ADDRESS=0x4ccB784744969D9B63C15cF07E622DDA65A88Ee7
-TOKEN_A_ADDRESS=0x40Af842f211D733EB2ecF75566b2ad05951F7f4f
+ROUTER_ADDRESS=0x4ccb784744969d9b63c15cf07e622dda65a88ee7
+TOKEN_A_ADDRESS=0xfbECae21C91446f9c7b87E4e5869926998f99ffe
 TOKEN_B_ADDRESS=0xcF259Bca0315C6D32e877793B6a10e97e7647FdE
 ```
 
@@ -50,6 +50,13 @@ screen -S inichain
 ```
 
 ```
-node swap.js
+#!/bin/bash
+
+while true; do
+    node swap.js
+    echo "Process crashed. Restarting in 5 seconds..."
+    sleep 5
+done
+
 ```
 
